@@ -591,6 +591,7 @@ footer .social a:hover {
   #contact .container {
     grid-auto-flow: column;
     align-items: center;
+    justify-content: space-between;
   }
   #contact .text {
     max-width: 25rem;
@@ -613,9 +614,3 @@ footer .social a:hover {
 /* large devices: 1023 > */
 /* large devices: 992 > */
 /* medium devices: 767 > */
-@media (min-width: 992px) {
-  :root {
-    --title-font-size: 2.25rem;
-    --subtitle-font-size: 1.125rem;
-  }
-}
